@@ -8,9 +8,7 @@ public class DoubleList {
 
     public static void main(String[] args) {
 
-
         showNumbersAndSum(printNumber());
-
     }
 
     static List<Integer> printNumber() {
@@ -36,11 +34,12 @@ public class DoubleList {
         sum(numbers);
         System.out.println();
     }
+
     private static void sum(List<Integer> numbers) {
         int sum = 0;
         System.out.println("wdafia");
         for (int i = 0; i < numbers.size(); i++) {
-            if (i == numbers.size()) {
+            if (i == (numbers.size() - 1)) {
                 System.out.print(numbers.get(i));
             } else {
                 System.out.print(numbers.get(i) + "+");
@@ -67,7 +66,6 @@ public class DoubleList {
         System.out.println("Max =" + max);
         System.out.println("Min =" + min);
     }
-
 
 }
 
