@@ -11,7 +11,6 @@ public class DoubleList {
 
         showNumbersAndSum(printNumber());
 
-
     }
 
     static List<Integer> printNumber() {
@@ -36,9 +35,7 @@ public class DoubleList {
         }
         sum(numbers);
         System.out.println();
-
     }
-
     private static void sum(List<Integer> numbers) {
         int sum = 0;
         System.out.println("wdafia");
@@ -53,7 +50,6 @@ public class DoubleList {
         System.out.println("=" + sum);
         minMax(numbers);
     }
-
     private static void minMax(List<Integer> numbers) {
         int min = numbers.get(0);
         int max = 0;
